@@ -202,7 +202,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-11-02 22:38:54 / 修改时间：22:38:43" itemprop="dateCreated datePublished" datetime="2020-11-02T22:38:54+08:00">2020-11-02</time>
+              <time title="创建时间：2020-11-02 22:38:54 / 修改时间：22:43:00" itemprop="dateCreated datePublished" datetime="2020-11-02T22:38:54+08:00">2020-11-02</time>
             </span>
 
           
@@ -217,8 +217,7 @@
 
       
           <hr>
-<h2 id="Linux的使用"><a href="#Linux的使用" class="headerlink" title="Linux的使用"></a>Linux的使用</h2><p>#用putty使用ssh命令（Windows中全部使用putty）</p>
-<pre><code>输入root@域名（如***.**.***.**）
+<h2 id="Linux的使用"><a href="#Linux的使用" class="headerlink" title="Linux的使用"></a>Linux的使用</h2><h1 id="用putty使用ssh命令（Windows中全部使用putty）"><a href="#用putty使用ssh命令（Windows中全部使用putty）" class="headerlink" title="用putty使用ssh命令（Windows中全部使用putty）"></a>用putty使用ssh命令（Windows中全部使用putty）</h1><pre><code>输入root@域名（如***.**.***.**）
 
 port默认为22
 
@@ -246,8 +245,7 @@ cd /    |退回根目录</code></pre>
 <h1 id="mv（move）：移动或重命名"><a href="#mv（move）：移动或重命名" class="headerlink" title="mv（move）：移动或重命名"></a>mv（move）：移动或重命名</h1><h2 id="mv-参数1-源文件或目录-参数2-目标文件或目录"><a href="#mv-参数1-源文件或目录-参数2-目标文件或目录" class="headerlink" title="mv [参数1: 源文件或目录][参数2:目标文件或目录]"></a>mv [参数1: 源文件或目录][参数2:目标文件或目录]</h2><pre><code>1|当参数2是文件时，该命令会将源文件或目录移动到目标文件指定目录并且重命名成目标文件
 
 2|当参数2是目录时，该命令将源文件或目录移动到目标目录</code></pre>
-<h1 id="cp-copy-复制"><a href="#cp-copy-复制" class="headerlink" title="cp(copy) :复制"></a>cp(copy) :复制</h1><h2 id="cp-选项-R-参数1-源文件或目录-参数2-目标文件或目录"><a href="#cp-选项-R-参数1-源文件或目录-参数2-目标文件或目录" class="headerlink" title="cp [选项: -R] [参数1:源文件或目录][参数2:目标文件或目录]"></a>cp [选项: -R] [参数1:源文件或目录][参数2:目标文件或目录]</h2><p>##4种情形:</p>
-<pre><code>1|复制源文件到指定目录,目标文件不存在时， 会生成新文件
+<h1 id="cp-copy-复制"><a href="#cp-copy-复制" class="headerlink" title="cp(copy) :复制"></a>cp(copy) :复制</h1><h2 id="cp-选项-R-参数1-源文件或目录-参数2-目标文件或目录"><a href="#cp-选项-R-参数1-源文件或目录-参数2-目标文件或目录" class="headerlink" title="cp [选项: -R] [参数1:源文件或目录][参数2:目标文件或目录]"></a>cp [选项: -R] [参数1:源文件或目录][参数2:目标文件或目录]</h2><h2 id="4种情形"><a href="#4种情形" class="headerlink" title="4种情形:"></a>4种情形:</h2><pre><code>1|复制源文件到指定目录,目标文件不存在时， 会生成新文件
 
 2|复制源文件到指定目录,目标文件存在时，系统会询问是否覆 盖已存在文件
 
@@ -277,16 +275,13 @@ mkdir|创建一个新的文件夹</code></pre>
 4|删除文件夹，系统不给提示rm - rf testdir
 
 5|删除当前目录所有文件(慎用)rm* -rf</code></pre>
-<h1 id="top-查看进程情况"><a href="#top-查看进程情况" class="headerlink" title="top:查看进程情况"></a>top:查看进程情况</h1><p>##top显示出得进程信息默认是按CPU的使用情况来排序的，不过有以下参数可以使用</p>
-<pre><code>M (大写) :按内存使用情况排序
+<h1 id="top-查看进程情况"><a href="#top-查看进程情况" class="headerlink" title="top:查看进程情况"></a>top:查看进程情况</h1><h2 id="top显示出得进程信息默认是按CPU的使用情况来排序的，不过有以下参数可以使用"><a href="#top显示出得进程信息默认是按CPU的使用情况来排序的，不过有以下参数可以使用" class="headerlink" title="top显示出得进程信息默认是按CPU的使用情况来排序的，不过有以下参数可以使用"></a>top显示出得进程信息默认是按CPU的使用情况来排序的，不过有以下参数可以使用</h2><pre><code>M (大写) :按内存使用情况排序
 
 P :按CPU使用情况排序
 
 T:按累计时间排序</code></pre>
-<h1 id="chown-修改文件的拥有者和组"><a href="#chown-修改文件的拥有者和组" class="headerlink" title="chown:修改文件的拥有者和组"></a>chown:修改文件的拥有者和组</h1><p>##chown[选项][所有者] :[组]文件 .</p>
-<pre><code>管理员账号用来管理文件的拥有者的命令</code></pre>
-<h1 id="chmod-修改文件的权限"><a href="#chmod-修改文件的权限" class="headerlink" title="chmod: 修改文件的权限"></a>chmod: 修改文件的权限</h1><p>##chmod [选项][权限数]文件</p>
-<pre><code>-   ---     ---       ---
+<h1 id="chown-修改文件的拥有者和组"><a href="#chown-修改文件的拥有者和组" class="headerlink" title="chown:修改文件的拥有者和组"></a>chown:修改文件的拥有者和组</h1><h2 id="chown-选项-所有者-组-文件"><a href="#chown-选项-所有者-组-文件" class="headerlink" title="chown[选项][所有者] :[组]文件 ."></a>chown[选项][所有者] :[组]文件 .</h2><pre><code>管理员账号用来管理文件的拥有者的命令</code></pre>
+<h1 id="chmod-修改文件的权限"><a href="#chmod-修改文件的权限" class="headerlink" title="chmod: 修改文件的权限"></a>chmod: 修改文件的权限</h1><h2 id="chmod-选项-权限数-文件"><a href="#chmod-选项-权限数-文件" class="headerlink" title="chmod [选项][权限数]文件"></a>chmod [选项][权限数]文件</h2><pre><code>-   ---     ---       ---
 d   uesr    group     other   的权限
 
 user、group、other分别用一个数字表示
@@ -301,16 +296,13 @@ user、group、other分别用一个数字表示
 <h1 id="tail：查看文本末尾信息"><a href="#tail：查看文本末尾信息" class="headerlink" title="tail：查看文本末尾信息"></a>tail：查看文本末尾信息</h1><h2 id="tail-选项-文件"><a href="#tail-选项-文件" class="headerlink" title="tail [选项]  文件"></a>tail [选项]  文件</h2><h2 id="常用："><a href="#常用：" class="headerlink" title="常用："></a>常用：</h2><pre><code>tail -n(num)  查看末尾 num 行文本    |查看第**行的文本
 
 tail -(num)f  持续查看末尾num 行文本  |查看日志文件从**行开始的文本</code></pre>
-<h1 id="wget：下载文件"><a href="#wget：下载文件" class="headerlink" title="wget：下载文件"></a>wget：下载文件</h1><h2 id="wget-选项-ur"><a href="#wget-选项-ur" class="headerlink" title="wget [选项] [ur]  |"></a>wget [选项] [ur]  |</h2><p>##常用方式:</p>
-<pre><code>1.直接下载wget http://36kr.com/
+<h1 id="wget：下载文件"><a href="#wget：下载文件" class="headerlink" title="wget：下载文件"></a>wget：下载文件</h1><h2 id="wget-选项-ur"><a href="#wget-选项-ur" class="headerlink" title="wget [选项] [ur]  |"></a>wget [选项] [ur]  |</h2><h2 id="常用方式"><a href="#常用方式" class="headerlink" title="常用方式:"></a>常用方式:</h2><pre><code>1.直接下载wget http://36kr.com/
 
 2.下载以自定义文件名保存wget -O temp(文件名) http://36kr.com/
 
 3.断点下载wget -c http://36kr .com/</code></pre>
-<p>#ping：判断某个服务器/地址是否还在运行</p>
-<pre><code>ping --help</code></pre>
-<h1 id="vim：文本编辑器-amp-文本编辑命令"><a href="#vim：文本编辑器-amp-文本编辑命令" class="headerlink" title="vim：文本编辑器&amp;文本编辑命令"></a>vim：文本编辑器&amp;文本编辑命令</h1><h2 id="vim-vi-选项-文件"><a href="#vim-vi-选项-文件" class="headerlink" title="vim/vi [选项]  文件"></a>vim/vi [选项]  文件</h2><p>##编辑模式:</p>
-<pre><code>1. 一般模式 ： 可以复制，删除文本，但是不能插入
+<h1 id="ping：判断某个服务器-地址是否还在运行"><a href="#ping：判断某个服务器-地址是否还在运行" class="headerlink" title="ping：判断某个服务器/地址是否还在运行"></a>ping：判断某个服务器/地址是否还在运行</h1><pre><code>ping --help</code></pre>
+<h1 id="vim：文本编辑器-amp-文本编辑命令"><a href="#vim：文本编辑器-amp-文本编辑命令" class="headerlink" title="vim：文本编辑器&amp;文本编辑命令"></a>vim：文本编辑器&amp;文本编辑命令</h1><h2 id="vim-vi-选项-文件"><a href="#vim-vi-选项-文件" class="headerlink" title="vim/vi [选项]  文件"></a>vim/vi [选项]  文件</h2><h2 id="编辑模式"><a href="#编辑模式" class="headerlink" title="编辑模式:"></a>编辑模式:</h2><pre><code>1. 一般模式 ： 可以复制，删除文本，但是不能插入
 
 2. 插入模式 ： 在一般模式下按“I,l,o,0,a,A,r,R” 进入到插入模式，可以任意编辑
 
@@ -318,10 +310,7 @@ tail -(num)f  持续查看末尾num 行文本  |查看日志文件从**行开始
 
     命令模式的常用命令: 
         :q退出      :q!强制退出     :W保存     :wq(:x)保存后退出     :wq!(:x!)强制保存后退出攻城理尚</code></pre>
-<p>#以上是我对Liunx最常用的15个命令的总结与理解，以及它们的使用方法</p>
-<p>#下面的链接包含了Linux所有的常用的命令，希望对大家有用。</p>
-<p>##<a target="_blank" rel="noopener" href="https://blog.csdn.net/luansj/article/details/97272672?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160432517519724839255591%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=160432517519724839255591&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-97272672.first_rank_ecpm_v3_pc_rank_v2&utm_term=liunx%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8&spm=1018.2118.3001.4449">Linux命令</a></p>
-
+<h1 id="以上是我对Liunx最常用的15个命令的总结与理解，以及它们的使用方法"><a href="#以上是我对Liunx最常用的15个命令的总结与理解，以及它们的使用方法" class="headerlink" title="以上是我对Liunx最常用的15个命令的总结与理解，以及它们的使用方法"></a>以上是我对Liunx最常用的15个命令的总结与理解，以及它们的使用方法</h1><h1 id="下面的链接包含了Linux所有的常用的命令，希望对大家有用。"><a href="#下面的链接包含了Linux所有的常用的命令，希望对大家有用。" class="headerlink" title="下面的链接包含了Linux所有的常用的命令，希望对大家有用。"></a>下面的链接包含了Linux所有的常用的命令，希望对大家有用。</h1><h2 id="Linux命令"><a href="#Linux命令" class="headerlink" title="Linux命令"></a><a target="_blank" rel="noopener" href="https://blog.csdn.net/luansj/article/details/97272672?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160432517519724839255591%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=160432517519724839255591&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-97272672.first_rank_ecpm_v3_pc_rank_v2&utm_term=liunx%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8&spm=1018.2118.3001.4449">Linux命令</a></h2>
       
     </div>
 
